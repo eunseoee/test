@@ -1,0 +1,113 @@
+body{
+    background-color: #e7e7e7;
+    font-family: 'Noto Sans Korean', sans-serif;
+}
+h1{
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+    font-size: 15px;
+}
+.page {
+    box-sizing: border-box;
+    background-color: rgb(52, 57, 87);
+    border-radius: 10px;
+    margin-bottom: 80px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 7px #acacac;
+}
+.page .story{
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    line-height: 15px;
+    font-size: 12px;
+    text-align: justify;
+}
+.page .poster{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+img{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* table{
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+    border-spacing: 15px;
+    width: 100%;
+    text-align: center;
+} */
+/* table img{
+    display: block;
+    width: 80%;
+} */
+p{
+    color: rgb(240, 240, 240);
+}
+table{
+    width: 500px;
+    margin-bottom: 50px;
+
+}
+.page .tabletitleo{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 8px;
+}
+.page .tabletitlet{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.page .tabletitleh{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+.page #pagetitle{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.page .story a{
+    display: block;
+    width: 50px;
+    height: 15px;
+    border-radius: 2px;
+    background-color: rgb(112, 117, 151);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
